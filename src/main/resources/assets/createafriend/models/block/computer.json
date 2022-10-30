@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "createafriend:blocks/computer_top",
+    "bottom": "createafriend:blocks/computer_bottom",
+    "front": "createafriend:blocks/computer_front",
+    "side": "createafriend:blocks/computer_side"
+  }
+}

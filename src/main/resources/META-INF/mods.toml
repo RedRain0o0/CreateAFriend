@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+
+[[mods]]
+modId="createafriend"
+version="0.0.1"
+displayName="Create: A Friend"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/create-a-friend"
+logoFile="Caflogo.png"
+credits="Thanks for this example mod goes to Java"
+authors="RedRain0o0"
+
+description='''
+Adds robotic companions to the Create mod!
+'''
+
+[[dependencies.createafriend]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.createafriend]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+#[[dependencies.createafriend]]
+    #modId="create"
+    #mandatory=true
+    #versionRange="[0.5.0.f,)"
+    #ordering="NONE"
+    #side="BOTH"
